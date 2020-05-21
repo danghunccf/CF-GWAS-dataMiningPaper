@@ -1,0 +1,55 @@
+Name	Previous_equivalents	Molecular_characteristics
+HLA-A	-	Class I a-chain
+HLA-B	-	Class I a-chain
+HLA-C	-	Class I a-chain
+HLA-E	"E, '6.2'"	associated with class I 6.2-kB Hind III fragment
+HLA-F	"F, '5.4'"	associated with class I 5.4-kB Hind III fragment
+HLA-G	"G, '6.0'"	associated with class I 6.0-kB Hind III fragment
+HLA-H	"H, AR, '12.4'"	Class I pseudogene associated with 5.4-kB Hind III fragment
+HLA-J	cda12	Class I pseudogene associated with 5.9-kB Hind III fragment
+HLA-K	HLA-70	Class I pseudogene associated with 7.0-kB Hind III fragment
+HLA-L	HLA-92	Class I pseudogene associated with 9.2-kB Hind III fragment
+HLA-N	HLA-30	Class I gene fragment associated with a 1.7-kB Hind III fragment
+HLA-P	HLA-90	Class I gene fragment associated with 9.0-kB Hind III fragment
+HLA-S	HLA-17	Class I gene fragment associated with a 3.0-kB Hind III fragment
+HLA-T	HLA-16	Class I gene fragment associated with 16.0-kB Hind III fragment
+HLA-U	HLA-21	Class I gene fragment associated with 2.1-kB Hind III fragment
+HLA-V	HLA-75	Class I gene fragment associated with 7.5-kB Hind III fragment
+HLA-W	HLA-80	Class I gene fragment associated with 8.0-kB Hind III fragment
+HLA-X	HLA-X	Class I gene fragment
+HLA-Y	HLA-BEL/COQ/DEL	Class I pseudogene
+HLA-Z	HLA-Z1	Class I gene fragment located within the HLA Class II region
+HLA-DRA	DRa	DR a-chain
+HLA-DRB1	"DRßI, DR1B"	"DR ß1-chain determining specificities DR1, DR2, DR3, DR4, DR5 etc."
+HLA-DRB2	DRßII	pseudogene with DR ß-like sequences
+HLA-DRB3	"DRßIII, DR3B"	"DR ß3-chain determining DR52 and Dw24, Dw25, Dw26 specificities"
+HLA-DRB4	"DRßIV, DR4B"	DR ß4-chain determining DR53
+HLA-DRB5	DRßIII	DR ß5-chain determining DR51
+HLA-DRB6	"DRBX, DRBs"	"DRB pseudogene found on DR1, DR2 and DR10 haplotypes"
+HLA-DRB7	DRB?1	"DRB pseudogene found on DR4, DR7 and DR9 haplotypes"
+HLA-DRB8	DRB?2	"DRB pseudogene found on DR4, DR7 and DR9 haplotypes"
+HLA-DRB9	M4.2 ß exon	"DRB pseudogene, isolated fragment"
+HLA-DQA1	"DQa1, DQ1A"	DQ a-chain as expressed
+HLA-DQB1	"DQß1, DQ1B"	DQ ß-chain as expressed
+HLA-DQA2	"DXa, DQ2A"	"DQ a-chain-related sequence, not known to be expressed"
+HLA-DQB2	"DXß, DQ2B"	"DQ ß-chain-related sequence, not known to be expressed"
+HLA-DQB3	"DVß, DQB3"	"DQ ß-chain-related sequence, not known to be expressed"
+HLA-DOA	"DZa, DOa, DNA"	DO a-chain
+HLA-DOB	DOß	DO ß-chain
+HLA-DMA	RING6	DM a-chain
+HLA-DMB	RING7	DM ß-chain
+HLA-DPA1	"DPa1, DP1A"	DP a-chain as expressed
+HLA-DPB1	"DPß1, DP1B"	DP ß-chain as expressed
+HLA-DPA2	"DPa2, DP2A"	DP a-chain-related pseudogene
+HLA-DPB2	"DPß2, DP2B"	DP ß-chain-related pseudogene
+HLA-DPA3	DPA3	DP a-chain-related pseudogene
+HFE	'High Fe'	Class I-like gene
+TAP1	"ABCB2, RING4, Y3, PSF1"	ABC (ATP Binding Cassette) transporter
+TAP2	"ABCB3, RING11, Y1, PSF2"	ABC (ATP Binding Cassette) transporter
+PSMB9	"LMP2, RING12"	Proteasome-related sequence
+PSMB8	"LMP7, RING10"	Proteasome-related sequence
+MICA	"MICA, PERB11.1"	Class I chain-related gene
+MICB	"MICB, PERB11.2"	Class I chain-related gene
+MICC	"MICC, PERB11.3"	Class I chain-related pseudogene
+MICD	"MICD, PERB11.4"	Class I chain-related pseudogene
+MICE	"MICE, PERB11.5"	Class I chain-related pseudogene

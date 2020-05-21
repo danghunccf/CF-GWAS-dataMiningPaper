@@ -1,0 +1,48 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./munge_sumstats.py \
+--signed-sumstats z.fix,0 \
+--out /data2/GWAS/TWAS/gwasImput2_summary/gwasImpute2_hg19_SAKNORM_all_fixed \
+--frq MAF \
+--N 6359.0 \
+--a1 REF \
+--a2 ALT \
+--snp SNP \
+--sumstats /data2/GWAS/toronto_impute_2017/gwas_results_hg19/gwasImpute2_hg19_SAKNORM_all_meta.txt \
+--p p.fix 
+
+Interpreting column names as follows:
+p.fix:	p-Value
+z.fix:	Directional summary statistic as specified by --signed-sumstats.
+SNP:	Variant ID (e.g., rs number)
+MAF:	Allele frequency
+ALT:	Allele 2, interpreted as non-ref allele for signed sumstat.
+REF:	Allele 1, interpreted as ref allele for signed sumstat.
+
+Reading sumstats from /data2/GWAS/toronto_impute_2017/gwas_results_hg19/gwasImpute2_hg19_SAKNORM_all_meta.txt into memory 5000000 SNPs at a time.
+Read 9524324 SNPs from --sumstats file.
+Removed 377238 SNPs with missing values.
+Removed 0 SNPs with INFO <= 0.9.
+Removed 369757 SNPs with MAF <= 0.01.
+Removed 0 SNPs with out-of-bounds p-values.
+Removed 2197308 variants that were not SNPs or were strand-ambiguous.
+6580021 SNPs remain.
+Removed 0 SNPs with duplicated rs numbers (6580021 SNPs remain).
+Using N = 6359.0
+Median value of SIGNED_SUMSTATS was -0.008086, which seems sensible.
+Writing summary statistics for 6580021 SNPs (6580021 with nonmissing beta) to /data2/GWAS/TWAS/gwasImput2_summary/gwasImpute2_hg19_SAKNORM_all_fixed.sumstats.gz.
+
+Metadata:
+Mean chi^2 = 1.08
+Lambda GC = 1.064
+Max chi^2 = 50.012
+540 Genome-wide significant SNPs (some may have been removed by filtering).
+
+Conversion finished at Sat Mar 10 20:46:54 2018
+Total time elapsed: 1.0m:29.0s
