@@ -1,0 +1,7 @@
+These are results from data mining the CF GWAS data using PrediXcan pipelines following a general process: GWAS imputed data => imputed gene expression data per tissue based on PredictDB models => CF lung function association testing from 5,000+ unrelated patient data per tissue => combine results from multiple tissues by dependent meta-analysis of p-values (HarmonicMeanPvalue, or EmpirialModificationOfBrown's method) => filtering the results and compared to TWAS and GWAS at gene level.
+
+* The individual testing result per tissue obtained from imputed gene expression was performed using Bioconductor LIMMA with robust regression (keywords: limma, robust in filenames). The results were packaged in the .tar.gz file.
+* To combine results from multiple tissues, two meta-analysis methods were used: HMP (keyword: comboHMP), or correlation dependent EMB (keyword: comboPempBrown).
+* The mean effect-size from the multiple-tissue results were calculated (keyword: meanEffectSize), which are useful for comparison to TWAS on direction of predicted gene expression change relative to CF lung disease severity phenotype, KNoRMA.
+* The 2 meta-analysis HMP and EMB p-values were compiled and the maximum between them (keyword; maxP) were used to compare and plotted in most of the plots reported in our paper.
+* The rank of genes by the maximal p-value was used to perform pre-ranked Gene Set Enrichment Analysis (GSEA) using Bioconductor fgsea package with 1 million permutation (keyword: fgsea1m in filenames).
