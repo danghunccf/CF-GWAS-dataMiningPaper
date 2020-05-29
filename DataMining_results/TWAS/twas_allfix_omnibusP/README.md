@@ -1,0 +1,1 @@
+These are results of correlation informed meta-analysis of multiple tissue association p-values with Omnibus p-value method using the FUSION.post_process.R script following the Gusev protocol (http://gusevlab.org/projects/fusion/).
