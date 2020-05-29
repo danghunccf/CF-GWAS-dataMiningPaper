@@ -1,0 +1,1 @@
+These were CF GWAS summary statistics compiled as input for TWAS/FUSION analysis using the ldsc tool (https://github.com/bulik/ldsc), following analysis workflow from the Gusev lab (http://gusevlab.org/projects/fusion/).
