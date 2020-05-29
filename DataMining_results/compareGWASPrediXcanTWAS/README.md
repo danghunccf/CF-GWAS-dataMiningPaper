@@ -1,0 +1,5 @@
+These are compiled data tables from our data mining results and GWAS.
+
+* To interrogate the relationships between cis-SNPs and imputed gene expression, SNP association p-values from GWAS that were used in all PrediXcan models were compiled, and the minimum and mean p-values among the SNPs used per gene model were calculated and saved in the file: gtex7_allTisGene_GWASallFix_minMeanPval.txt.
+* Consensus CF lung disease modifier genes between PrediXcan (HMP p<0.01 and EMB p<0.01) and TWAS (HMP p<0.01 and Omnibus p<0.01) data mining results (52 genes); and combined PrediXcan (HMP p<0.01 and EMB p<0.01) or TWAS (HMP p<0.01 and Omnibus p<0.01) modifier candidate genes (379) were compiled and annotated. These represent the most robust consensus modifier genes (52), and potential candidates of CF lung disease modifiers from different characteristics of the data mining approaches.
+* GSEA results from pre-ranked max p-values between PrediXcan and TWAS were compiled, which helps to illustrate the consensus and different strength of the 2 approaches at functional levels.
